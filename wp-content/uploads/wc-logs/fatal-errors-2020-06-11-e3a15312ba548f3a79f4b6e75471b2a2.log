@@ -8,3 +8,53 @@ Stack trace:
 #3 {main}
   thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/single-xtreme.php on line 235
 
+2020-06-11T18:13:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_content() in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php:46
+Stack trace:
+#0 /var/www/html/Plataforma/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Plataforma/wp-blog-header.php(19): require_once('/var/www/html/P...')
+#2 /var/www/html/Plataforma/index.php(17): require('/var/www/html/P...')
+#3 {main}
+  thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 46
+
+2020-06-11T18:14:06+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php:46
+Stack trace:
+#0 /var/www/html/Plataforma/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Plataforma/wp-blog-header.php(19): require_once('/var/www/html/P...')
+#2 /var/www/html/Plataforma/index.php(17): require('/var/www/html/P...')
+#3 {main}
+  thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 46
+
+2020-06-11T18:15:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_content() in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php:45
+Stack trace:
+#0 /var/www/html/Plataforma/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Plataforma/wp-blog-header.php(19): require_once('/var/www/html/P...')
+#2 /var/www/html/Plataforma/index.php(17): require('/var/www/html/P...')
+#3 {main}
+  thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 45
+
+2020-06-11T18:15:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php:45
+Stack trace:
+#0 /var/www/html/Plataforma/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Plataforma/wp-blog-header.php(19): require_once('/var/www/html/P...')
+#2 /var/www/html/Plataforma/index.php(17): require('/var/www/html/P...')
+#3 {main}
+  thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 45
+
+2020-06-11T18:25:19+00:00 CRITICAL Uncaught Error: Call to undefined function get_excerpt() in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php:48
+Stack trace:
+#0 /var/www/html/Plataforma/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Plataforma/wp-blog-header.php(19): require_once('/var/www/html/P...')
+#2 /var/www/html/Plataforma/index.php(17): require('/var/www/html/P...')
+#3 {main}
+  thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 48
+
+2020-06-11T18:29:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_excerpt() in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php:48
+Stack trace:
+#0 /var/www/html/Plataforma/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Plataforma/wp-blog-header.php(19): require_once('/var/www/html/P...')
+#2 /var/www/html/Plataforma/index.php(17): require('/var/www/html/P...')
+#3 {main}
+  thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 48
+
+2020-06-11T18:56:44+00:00 CRITICAL syntax error, unexpected '$user_id' (T_VARIABLE) in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 45
+
