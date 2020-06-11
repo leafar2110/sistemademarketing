@@ -27,18 +27,18 @@
                                     </div>
                                     <div class="card-body card-block">
                                          <?php $args = array( 'post_type' => 'Xtreme', 'posts_per_page' => 1);?>   
-                         <?php $loop = new WP_Query( $args ); 
-                          $user_form = get_the_excerpt();
-                          $user_id = get_current_user_id();
-                         ?>
-                         <?php while ($loop->have_posts()) : $loop->the_post();  ?>
-                            <?php if ( $user_form == $user_id ): ?>
+                                         <?php $loop = new WP_Query( $args ); 
+                                          $user_form = get_the_excerpt();
+                                          $user_id = get_current_user_id();
+                                         ?>
+                              <?php while ($loop->have_posts()) : $loop->the_post();  ?>
+                            <?php// if ( $user_form == $user_id ): ?>
                                         <div class="form-group">
                                             <label for="company" class=" form-control-label">URL Referidos Xtreme 5/7 </label>
                                             <a target="_blank" href="<?php the_permalink(); ?>"> <?php the_permalink(); ?></a>
                                             
                                         </div>
-                            <?php endif; endwhile; ?>
+                            <?php  endwhile; ?>
 
                                     
                                       
