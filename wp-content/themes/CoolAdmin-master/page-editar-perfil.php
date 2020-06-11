@@ -33,8 +33,8 @@
                             <div class="col-lg-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <strong>Company</strong>
-                                        <small> Form</small>
+                                        <strong>Productos</strong>
+                                       
                                     </div>
                                     <div class="card-body card-block">
                                          <?php $args = array( 'post_type' => 'Xtreme', 'posts_per_page' => 1);?>   
