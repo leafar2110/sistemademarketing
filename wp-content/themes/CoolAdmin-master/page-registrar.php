@@ -7,7 +7,7 @@
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="<?php bloginfo('url') ?>">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/images/icon/logo.png" alt="CoolAdmin">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="CoolAdmin">
                             </a>
                         </div>
                         <div class="login-form">
@@ -15,7 +15,7 @@
                             
                             <div class="register-link">
                                 <p>
-                                    Already have account?
+                                ¿Ya tienes una cuenta?
                                     <a href="<?php bloginfo('url') ?>/iniciar-sesion">Iniciar Sesion</a>
                                 </p>
                             </div>

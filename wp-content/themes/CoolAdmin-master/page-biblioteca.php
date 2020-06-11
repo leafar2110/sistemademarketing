@@ -19,6 +19,12 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
+                        <div class="col-md-12">
+                            <div class="overview-wrap">
+                                <h2 class="title-1"><strong>Biblioteca</strong></h2>
+                            
+                            </div>
+                        </div>
                             <div class="col-lg-12">
                                 <div class="table-responsive table--no-card m-b-30">
                                     <table class="table table-borderless table-striped table-earning">

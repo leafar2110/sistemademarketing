@@ -18,9 +18,38 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-6">
+                        <div class="col-lg-12">
                                 <div class="card">
-                                    <div class="card-header">Xtreme 5/7</div>
+                                    <div class="card-header">
+
+                                        <strong>Productos</strong>
+
+                                    </div>
+                                    <div class="card-body card-block">
+                                         <?php $args = array( 'post_type' => 'Xtreme', 'posts_per_page' => 1);?>   
+                         <?php $loop = new WP_Query( $args ); 
+                          $user_form = get_the_excerpt();
+                          $user_id = get_current_user_id();
+                         ?>
+                         <?php while ($loop->have_posts()) : $loop->the_post();  ?>
+                            <?php if ( $user_form == $user_id ): ?>
+                                        <div class="form-group">
+                                            <label for="company" class=" form-control-label">URL Referidos Xtreme 5/7 </label>
+                                            <a target="_blank" href="<?php the_permalink(); ?>"> <?php the_permalink(); ?></a>
+                                            
+                                        </div>
+                            <?php endif; endwhile; ?>
+
+                                    
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <strong>Xtreme 5/7</strong>
+                                    </div>
                                     <div class="card-body">
                                         <div class="card-title">
                                             <h3 class="text-center title-2">Enlaces para Xtreme 5/7</h3>
@@ -30,33 +59,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <strong>Productos</strong>
-                                       
-                                    </div>
-                                    <div class="card-body card-block">
-                                         <?php $args = array( 'post_type' => 'Xtreme', 'posts_per_page' => 1);?>   
-                         <?php $loop = new WP_Query( $args ); ?>
-                         <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
-                            <?php 
-                                $user_form = get_the_excerpt();
-                                $user_id = get_current_user_id();
-
-                                     if ( $user_form == $user_id ): ?>
-                                        <div class="form-group">
-                                            <label for="company" class=" form-control-label">URL Referidos Xtreme 5/7 </label>
-                                            <a target="_blank" href="<?php the_permalink(); ?>"> <?php the_permalink(); ?></a>
-                                            
-                                        </div>
-                                    <?php endif; endwhile; ?>
-
-                                    
-                                      
-                                    </div>
-                                </div>
-                            </div>
+                            
                          
                              
                         </div>

@@ -150,7 +150,7 @@ body {
   overflow-x: hidden;
 }
 .container-fluid{
-  padding: 0 5rem;
+  padding: 0 0rem;
 }
 .container-fluidLarge{
   padding: 0 10rem;
@@ -620,5 +620,132 @@ footer{
 .main-footer__item p{
   color: #fff;
   margin-bottom: 0;
+}
+
+
+
+.form-row-sesion{
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 1rem 0 !important;
+}
+
+.ur-frontend-form .ur-form-row .ur-form-grid input[type=date], .ur-frontend-form .ur-form-row .ur-form-grid input[type=email], .ur-frontend-form .ur-form-row .ur-form-grid input[type=number], .ur-frontend-form .ur-form-row .ur-form-grid input[type=password], .ur-frontend-form .ur-form-row .ur-form-grid input[type=phone], .ur-frontend-form .ur-form-row .ur-form-grid input[type=text], .ur-frontend-form .ur-form-row .ur-form-grid input[type=timepicker], .ur-frontend-form .ur-form-row .ur-form-grid input[type=url], .ur-frontend-form .ur-form-row .ur-form-grid select, .ur-frontend-form .ur-form-row .ur-form-grid textarea{
+  line-height: 43px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #666;
+    padding: 0 17px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px !important;
+    height: 45px !important;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+.ur-frontend-form {
+  margin-bottom: 30px;
+  border: 1px solid transparent !important;
+  padding: 0px !important;
+  box-sizing: border-box;
+}
+
+#user_pass_field{
+  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.ur-frontend-form .ur-form-row .ur-form-grid .hide_show_password .password-input-group{
+  width: 100% !important;
+}
+.ur-frontend-form .ur-form-row .ur-form-grid .ur-field-item{
+  margin-bottom: 0 !important;
+}
+
+
+.btn.button.ur-submit-button {
+  line-height: 45px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: #d53524;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.ur-frontend-form .ur-button-container{
+  padding: 0 0 0 5px !important; 
+}
+
+.ur-frontend-form .ur-form-row .ur-form-grid label.ur-label, .ur-frontend-form .ur-form-row .ur-form-grid legend.ur-label{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 1.625 !important;
+  color: #666 !important;
+}
+
+.card-title{
+  display: grid !important;
+  grid-template-columns: 70% 30%;
+  align-items: flex-start !important;
+}
+
+.card-header{
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgb(213, 54, 37) !important;
+  border-bottom: 1px solid rgb(213, 54, 38) !important;
+}
+.card-header strong{
+  color: #fff !important;
+}
+.card-text a, a{
+  color: #38bacc;
+}
+.card-body .card-title{
+  grid-template-columns: 1fr;
+}
+
+.frm_style_formidable-style.with_frm_style input[type=text], .frm_style_formidable-style.with_frm_style input[type=password], .frm_style_formidable-style.with_frm_style input[type=email], .frm_style_formidable-style.with_frm_style input[type=number], .frm_style_formidable-style.with_frm_style input[type=url], .frm_style_formidable-style.with_frm_style input[type=tel], .frm_style_formidable-style.with_frm_style input[type=file], .frm_style_formidable-style.with_frm_style input[type=search], .frm_style_formidable-style.with_frm_style select {
+  height: 40px !important;
+  line-height: 1.3;
+}
+
+.frm_style_formidable-style.with_frm_style label.frm_primary_label {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  color: #5a5a5a !important;
+  font-weight: 500 !important;
+  height: 40px !important;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_compact .frm_dropzone.dz-clickable .dz-message, .frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_style_formidable-style.with_frm_style .frm_submit button, .frm_form_submit_style {
+  width: 100% !important;
+  font-family:"Poppins", sans-serif !important;
+  font-size: 15px !important;
+  background: #d53625 !important;
+  border-color: #d53625 !important;
+  color: #fff !important;
+  padding: 12px 11px !important;
+  font-weight: 600 !important;
+}
+
+.badge-success {
+  color: #ba3136 !important;
+  background-color: #ffffff !important;
 }
 

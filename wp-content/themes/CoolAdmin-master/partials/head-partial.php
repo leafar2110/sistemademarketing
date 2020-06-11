@@ -130,6 +130,7 @@
                                             <img src="<?= get_avatar_url(wp_get_current_user()) ?>" alt="John Doe" />
                                         </div>
                                              <?php global $current_user; get_currentuserinfo(); ?>
+                                            
 
                                         <div class="content">
                                             <a class="js-acc-btn" href="#"> <?php echo $current_user->user_login; ?></a>
@@ -146,7 +147,8 @@
                                                         <a href="#"><?php echo $current_user->user_login; ?></a>
                                                     </h5>
                                                     <span class="email"><?php echo $current_user->user_email; ?></span>
-                                                </div>
+
+                                                    <span class="email">CODIGO</span>                                                </div>
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">

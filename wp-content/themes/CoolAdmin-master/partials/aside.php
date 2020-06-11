@@ -7,7 +7,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="<?php echo get_template_directory_uri();?>/assets/images/icon/logo.png" alt="CoolAdmin" />
+                            <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -65,7 +65,7 @@
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="<?php bloginfo('url'); ?>">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/icon/logo.png" alt="Cool Admin" />
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">

@@ -169,9 +169,10 @@ strong {
 .title-2 {
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1;
-        margin-bottom: 10px;
+    margin-bottom: 0rem;
+    padding: 1rem 0.5rem;
 }
 
 .title-3 {
@@ -285,6 +286,7 @@ section {
     overflow: auto;
     background: #e5e5e5;
     padding-bottom: 12vh;
+    overflow: hidden;
 }
 }
 .page-container {
@@ -406,7 +408,10 @@ section {
 }
 
 .register-link > p > a {
-    color: #ff2e44;
+    color: #3bbcc7;
+}
+.forgot{
+    font-size: 14px;
 }
 
 .fontawesome-list-wrap {
@@ -494,6 +499,13 @@ section {
 
 .au-btn--green:hover {
     background: #59bd60;
+}
+.au-btn--red {
+    background: #d53524;
+}
+
+.au-btn--red:hover {
+    background: #ce3d2d;
 }
 
 .au-btn-plus {
@@ -812,7 +824,7 @@ section {
 
 @media (max-width: 1600px) {
     .au-input--xl {
-        min-width: 350px;
+        min-width: 450px;
     }
 }
 
@@ -837,12 +849,12 @@ section {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background: #4272d7;
+    background: #d53524;
     margin-left: -3px;
 }
 
 .au-btn--submit:hover {
-    background: #3868cd;
+    background: #d53524;
 }
 
 .au-btn--submit > i {
@@ -1302,13 +1314,19 @@ section {
 
 @media (max-width: 991px) {
     .header-button {
-        margin-top: 30px;
-        width: 100%;
+        /* margin-top: 30px;
+        width: 100%; */
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
         -moz-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
+    }
+    .header-wrap{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        align-items: center !important;
+    
     }
 }
 
@@ -1539,7 +1557,7 @@ section {
 }
 
 .account-dropdown__item a:hover {
-    background: #4272d7;
+    background: #d53524;
     color: #fff;
 }
 
@@ -1566,7 +1584,7 @@ section {
 }
 
 .account-dropdown__footer a:hover {
-    background: #4272d7;
+    background: #d53524;
     color: #fff;
 }
 
@@ -1588,7 +1606,7 @@ section {
 }
 
 .menu-sidebar .logo {
-    background: #f5f5f5;
+    background: #fff;
     height: 75px;
     padding: 0 35px;
     display: -webkit-box;
@@ -1626,7 +1644,7 @@ section {
 }
 
 .navbar-sidebar {
-    padding: 35px;
+    padding: 0px;
     padding-bottom: 0;
 }
 
@@ -1634,7 +1652,9 @@ section {
     display: block;
     color: #555;
     font-size: 16px;
-    padding: 0 0 13px !important;
+    background-color: transparent;
+    padding: 10px 20px 10px 20px !important;
+    
 }
 
 .navbar-sidebar .navbar__list li a i {
@@ -1642,15 +1662,25 @@ section {
 }
 
 .navbar-sidebar .navbar__list li a:hover {
-    color: #4272d7;
+    color: #fff;
+    background-color: #d53524;
+    padding: 10px 20px 10px 20px;
 }
 
 .navbar-sidebar .navbar__list li.active > a {
-    color: #4272d7;
+    color: #fff;
+    background-color: #d53524;
+    padding: 10px 20px 0 20px;
 }
 
 .has-sub {
     position: relative;
+    color: #d53524;
+    background-color: transparent;
+}
+.has-sub:hover{
+    color: #fff;
+    background-color: #d53524;
 }
 
 .header-mobile {
@@ -3103,6 +3133,7 @@ section {
     -moz-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 767px) {
@@ -4238,7 +4269,7 @@ section {
 }
 
 .table-earning thead th {
-    background: #333;
+    background: #d53625;
     font-size: 16px;
     color: #fff;
     vertical-align: middle;
@@ -4968,7 +4999,7 @@ section {
 .statistic__item {
     border: 1px solid #e5e5e5;
     background: #fff;
-    padding: 20px 30px;
+    padding: 20px 11px;
     position: relative;
     min-height: 180px;
     overflow: hidden;
@@ -4994,7 +5025,7 @@ section {
 }
 
 .statistic__item .desc {
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 300;
     color: rgba(128, 128, 128, 0.6);
@@ -5009,18 +5040,16 @@ section {
 .statistic__item .icon {
     display: inline-block;
     position: absolute;
-    bottom: -50px;
+    bottom: -40px;
     right: -7px;
-}
-
-.statistic__item .icon i {
-    font-size: 180px;
+  }
+  .statistic__item .icon i {
+    font-size: 150px;
     color: #808080;
     opacity: .2;
     line-height: 1;
     vertical-align: baseline;
-}
-
+  }
 .statistic__item--green {
     background: #00b26f;
 }
