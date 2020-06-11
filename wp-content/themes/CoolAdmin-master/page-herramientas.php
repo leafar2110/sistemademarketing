@@ -88,7 +88,7 @@
                                                 <td><?php echo get_the_date(); ?></td>
                                                 <td><?php the_id(); ?></td>
                                                 <td><?php the_title(); ?></td>
-                                                <td class="text-right"><?php the_field('nota_adicional'); ?></td>
+                                                <td class="text-right"><?php the_field('nota'); ?></td>
                                                 <td class="text-right"><a style="color: black; margin-right: 20px;" href="<?php the_field('cargar_documento'); ?>">Ver </a><a target="_blank" download="<?php the_title(); ?>" href="<?php the_field('cargar_documento'); ?>"> Descargar</a>  </td>
                                                
                                             </tr>
@@ -118,7 +118,7 @@
 
     <?php else:
 
-header('Location: http://localhost/Plataforma');
+header('Location: http://174.138.38.5/sistemademarketing/');
 
 
  endif; ?>

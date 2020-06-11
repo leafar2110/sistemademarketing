@@ -55,7 +55,7 @@
     </div>
 <?php else:
 
-header('Location: http://localhost/Plataforma');
+header('Location: http://174.138.38.5/sistemademarketing/');
 
 
  endif; ?>

@@ -171,6 +171,7 @@ strong {
     font-weight: 400;
     font-size: 24px;
     line-height: 1;
+        margin-bottom: 10px;
 }
 
 .title-3 {
@@ -3259,7 +3260,7 @@ section {
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
-    padding: 40px;
+    padding: 10px 10px 10px 10px !important;
     padding-right: 35px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;

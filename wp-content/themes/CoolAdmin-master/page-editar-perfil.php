@@ -46,7 +46,7 @@
                                      if ( $user_id  == $user_id ): ?>
                                         <div class="form-group">
                                             <label for="company" class=" form-control-label">URL Referidos</label>
-                                            <a href="<?php the_permalink(); ?>"> <?php the_permalink(); ?></a>
+                                            <a target="_blank" href="<?php the_permalink(); ?>"> <?php the_permalink(); ?></a>
                                             
                                         </div>
                                     <?php endif; endwhile; ?>
@@ -74,7 +74,7 @@
     </div>
 <?php else:
 
-header('Location: http://localhost/Plataforma');
+header('Location: http://174.138.38.5/sistemademarketing/');
 
 
  endif; ?>

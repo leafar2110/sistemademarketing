@@ -83,39 +83,39 @@
                         </li>
                         <li>
                             <a href="<?php bloginfo('url'); ?>/oportunidad">
-                                <i class="fas fa-table"></i>Oportunidad</a>
+                                <i class="fas fa-play"></i>Oportunidad</a>
                         </li>
                          <li>
                             <a href="<?php bloginfo('url'); ?>/como-iniciar">
-                                <i class="fas fa-table"></i>Como Iniciar</a>
+                                <i class="fas fa-play"></i>Como Iniciar</a>
                         </li>
                          <li>
                             <a href="<?php bloginfo('url'); ?>/como-funciona">
-                                <i class="fas fa-table"></i>Como funciona</a>
+                                <i class="fas fa-play"></i>Como funciona</a>
                         </li>
                          <li>
                             <a href="<?php bloginfo('url'); ?>/productos">
-                                <i class="fas fa-table"></i>Productos</a>
+                                <i class="fas fa-chart-bar"></i>Productos</a>
                         </li>
                           <li>
                             <a href="<?php bloginfo('url'); ?>/formacion-general">
-                                <i class="fas fa-table"></i>Formación General</a>
+                                <i class="fas fa-play"></i>Formación General</a>
                         </li>
                            <li>
                             <a href="<?php bloginfo('url'); ?>/desarrolla-tu-potencial">
-                                <i class="fas fa-table"></i>Desarrolla tu potencial</a>
+                                <i class="fas fa-play"></i>Desarrolla tu potencial</a>
                         </li>
                          <li>
                             <a href="<?php bloginfo('url'); ?>/biblioteca">
-                                <i class="fas fa-table"></i>Biblioteca</a>
+                                <i class="fas fa-file-text"></i>Biblioteca</a>
                         </li>
                            <li>
                             <a href="<?php bloginfo('url'); ?>/herramientas">
-                                <i class="fas fa-table"></i>Herramientas</a>
+                                <i class="fas fa-file-text"></i>Herramientas</a>
                         </li>
                         <li>
                             <a href="<?php bloginfo('url'); ?>/comunicacion-efectiva">
-                                <i class="fas fa-chart-bar"></i>Comunicación Efectiva</a>
+                                <i class="fas fa-play"></i>Comunicación Efectiva</a>
                         </li>
                        
                         <li>

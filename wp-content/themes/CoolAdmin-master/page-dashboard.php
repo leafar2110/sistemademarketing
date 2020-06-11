@@ -34,7 +34,10 @@
                             </div>
                         </div>
                         <div class="row m-t-25">
-                            <div class="col-sm-6 col-lg-3">
+                            <?php $args = array( 'post_type' => 'Videos', 'posts_per_page' => 1);?>   
+                         <?php $loop = new WP_Query( $args ); ?>
+                         <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
+                        <div class="col-sm-6 col-lg-3">
                                 <div class="overview-item overview-item--c1">
                                     <div class="overview__inner">
                                         <div class="overview-box clearfix">
@@ -42,35 +45,26 @@
                                                 <i class="zmdi zmdi-account-o"></i>
                                             </div>
                                             <div class="text">
-                                                <h2>10368</h2>
-                                                <span>members online</span>
+                                                <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                            <?php if ( $nota_adicional_checked_labels ) : ?>
+                                                <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                                <h2><?php echo $nota_adicional_label; ?></h2>
+                                                <?php endforeach; ?>
+                                                <?php endif; ?>
+                                                <span><?php the_title(); ?></span>
                                             </div>
                                         </div>
                                         <div class="overview-chart">
-                                            <canvas id="widgetChart1"></canvas>
+                                            <canvas ></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+<?php endwhile; ?>
 
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c2">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-shopping-cart"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>388,688</h2>
-                                                <span>items solid</span>
-                                            </div>
-                                        </div>
-                                        <div class="overview-chart">
-                                            <canvas id="widgetChart1"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+ <?php $args = array( 'post_type' => 'Documentos', 'posts_per_page' => 1);?>   
+                         <?php $loop = new WP_Query( $args ); ?>
+                         <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
                            <div class="col-sm-6 col-lg-3">
                                 <div class="overview-item overview-item--c1">
                                     <div class="overview__inner">
@@ -79,34 +73,78 @@
                                                 <i class="zmdi zmdi-account-o"></i>
                                             </div>
                                             <div class="text">
-                                                <h2>10368</h2>
-                                                <span>members online</span>
+                                                <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                            <?php if ( $nota_adicional_checked_labels ) : ?>
+                                                <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                                <h2><?php echo $nota_adicional_label; ?></h2>
+                                                <?php endforeach; ?>
+                                                <?php endif; ?>
+                                                <span><?php the_title(); ?></span>
                                             </div>
                                         </div>
                                         <div class="overview-chart">
-                                            <canvas id="widgetChart1"></canvas>
+                                            <canvas ></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <?php endwhile; ?>
+
+ <?php $args = array( 'post_type' => 'Noticia', 'posts_per_page' => 1);?>   
+                         <?php $loop = new WP_Query( $args ); ?>
+                         <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
                             <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c4">
+                                <div class="overview-item overview-item--c1">
                                     <div class="overview__inner">
                                         <div class="overview-box clearfix">
                                             <div class="icon">
-                                                <i class="zmdi zmdi-money"></i>
+                                                <i class="zmdi zmdi-account-o"></i>
                                             </div>
                                             <div class="text">
-                                                <h2>$1,060,386</h2>
-                                                <span>total earnings</span>
+                                                <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                            <?php if ( $nota_adicional_checked_labels ) : ?>
+                                                <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                                <h2><?php echo $nota_adicional_label; ?></h2>
+                                                <?php endforeach; ?>
+                                                <?php endif; ?>
+                                                <span><?php the_title(); ?></span>
                                             </div>
                                         </div>
                                         <div class="overview-chart">
-                                            <canvas id="widgetChart4"></canvas>
+                                            <canvas ></canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <?php endwhile; ?>
+
+ <?php $args = array( 'post_type' => 'Videos', 'posts_per_page' => 1);?>   
+                         <?php $loop = new WP_Query( $args ); ?>
+                         <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
+                             <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c1">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-account-o"></i>
+                                            </div>
+                                            <div class="text">
+                                                <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                            <?php if ( $nota_adicional_checked_labels ) : ?>
+                                                <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                                <h2><?php echo $nota_adicional_label; ?></h2>
+                                                <?php endforeach; ?>
+                                                <?php endif; ?>
+                                                <span><?php the_title(); ?></span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas ></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php endwhile; ?>
                         </div>
                         <div class="overview-wrap">
                                     <h2 class="title-1">Cursos <strong>Lo mas nuevo</strong></h2>
@@ -151,7 +189,7 @@
                                                 <td><?php echo get_the_date(); ?></td>
                                                 <td><?php the_id(); ?></td>
                                                 <td><?php the_title(); ?></td>
-                                                <td class="text-right"><?php the_field('nota_adicional'); ?></td>
+                                                <td class="text-right"><?php the_field('nota'); ?></td>
                                                 <td class="text-right"><a style="color: black; margin-right: 20px;" href="<?php the_field('cargar_documento'); ?>">Ver </a><a download="<?php the_title(); ?>" href="<?php the_field('cargar_documento'); ?>"> Descargar</a>  </td>
                                                
                                             </tr>
