@@ -120,7 +120,7 @@ function Xtreme() {
 		'label'                 => __( 'Xtreme Home', 'nivel' ),
 		'description'           => __( 'Post Type Description', 'nivel' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail' ),
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
 		'taxonomies'            => array(  ),
 		'hierarchical'          => false,
 		'public'                => true,
