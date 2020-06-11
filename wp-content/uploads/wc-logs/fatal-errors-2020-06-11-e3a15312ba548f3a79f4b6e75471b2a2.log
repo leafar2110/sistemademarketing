@@ -58,3 +58,5 @@ Stack trace:
 
 2020-06-11T18:56:44+00:00 CRITICAL syntax error, unexpected '$user_id' (T_VARIABLE) in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 45
 
+2020-06-11T22:13:45+00:00 CRITICAL Can't use function return value in write context in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 35
+
