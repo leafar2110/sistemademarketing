@@ -1,0 +1,10 @@
+2020-06-11T13:40:49+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-oportunidad.php on line 38
+
+2020-06-11T14:28:02+00:00 CRITICAL Uncaught Error: Call to undefined function the_except() in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/single-xtreme.php:235
+Stack trace:
+#0 /var/www/html/Plataforma/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Plataforma/wp-blog-header.php(19): require_once('/var/www/html/P...')
+#2 /var/www/html/Plataforma/index.php(17): require('/var/www/html/P...')
+#3 {main}
+  thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/single-xtreme.php on line 235
+

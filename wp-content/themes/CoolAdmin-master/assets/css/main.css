@@ -1,0 +1,624 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+      url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
+      url('../fonts/Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+      url('../fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Passion One';
+  src: url('../fonts/PassionOne-Bold.woff2') format('woff2'),
+      url('../fonts/PassionOne-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
+      url('../fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
+      url('../fonts/Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+      url('../fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+      url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+      url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
+      url('../fonts/Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+      url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Passion One';
+  src: url('../fonts/PassionOne-Black.woff2') format('woff2'),
+      url('../fonts/PassionOne-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Passion One';
+  src: url('../fonts/PassionOne-Regular.woff2') format('woff2'),
+      url('../fonts/PassionOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+      url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  /* padding-top: 56px; */
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+.container-fluid{
+  padding: 0 5rem;
+}
+.container-fluidLarge{
+  padding: 0 10rem;
+}
+section {
+  padding: 80px 0 80px 0;
+  position: relative;
+}
+.padd_top{
+  padding-top: 85px;
+}
+
+/****** SCROLL *****/
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #fff !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #9E9E9E;
+}
+
+
+/****** BTNS *****/
+.btn_custom {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  font-size: 14px;
+  /*line-height: 1.5em;*/
+  letter-spacing: 0;
+  font-weight: 600;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 0px;
+  -webkit-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  padding: 13px 50px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+}
+
+.btn--small {
+  min-width: 65px;
+  font-size: 18px;
+  height: 41px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+.btn--medium {
+  padding: 8px 50px 8px 50px;
+  min-width: 85px;
+  font-size: 20px;
+}
+
+.btn--large {
+  padding: 12px 20px 12px 20px;
+  min-width: 105px;
+  font-size: 16px;
+}
+
+.btn--filled {
+  color: #fff;
+  background-color: #51af2b;
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.btn--filled:hover {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+.btn--filledLight {
+  color: #fff;
+  background-color: #17342e;
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.btn--filledLight:hover {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: #17342e;
+  border: 1px solid #17342e;
+  background-color: transparent;
+}
+
+.btn--filledTransparent {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.btn--filledTransparent:hover {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: #17342e;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.arrowsline{
+  position: relative;
+}
+.arrowsline::before{
+  left: auto;
+  content: '';
+  position: absolute;
+  top: 17px;
+  right: 18px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  content: "";
+  width: 14px;
+  height: 14px;
+  opacity: 1 !important;
+  -webkit-transform: rotate(45deg) !important;
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg) !important;
+  -webkit-transition: .7s cubic-bezier(.2, .96, .34, 1) !important;
+  -o-transition: .7s cubic-bezier(.2, .96, .34, 1);
+  transition: .7s cubic-bezier(.2, .96, .34, 1) !important;
+}
+.arrowsline::after{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  top: 50%;
+  right: 1.1rem;
+  -webkit-transform: translateY(-50%) scaleX(0);
+  -ms-transform: translateY(-50%) scaleX(0);
+  transform: translateY(-50%) scaleX(0);
+  background: #fff;
+  -webkit-transform: translateY(-50%) scaleX(1);
+  -ms-transform: translateY(-50%) scaleX(1);
+  transform: translateY(-50%) scaleX(1);
+}
+
+.main-general__description-p p{
+	font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7a7a7a;
+}
+
+
+.main-banner{
+  height: 90vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.main-banner.main-banner--large{
+  height: 100vh;
+}
+.main-banner__bc{
+  height: 80vh;
+  width: 100%;
+  background-image: url(../img/fondo-solo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  transition: background 0.3s,border-radius 0.3s,opacity 0.3s;
+  display: flex;
+  align-items: center;
+}
+.main-banner__bc.main-banner__bc--large{
+  height: 90vh;
+}
+
+.main-banner__content, .main-stylelife__content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-banner__item:nth-child(1){
+  padding-top: 1rem;
+}
+.main-banner__item:nth-child(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-banner__img{
+  width: 700px;
+}
+.main-banner__img img{
+  width: 100%;
+}
+.main-banner__title h3{
+  color: #fff;
+  font-family: "Passion One",Sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 1.2em;
+}
+.main-banner__title h1{
+  color: #ED232A;
+  font-family: "Passion One",Sans-serif;
+  font-size: 110px;
+  font-weight: 100;
+  line-height: 1.2em;
+  border-bottom: 2px solid #fff;
+}
+.main-cta{
+  background-color: #ED232A;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.main-title__general p{
+  font-family: "Roboto",Sans-serif;
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.main-title__general.main-title__general--red h2{
+  color: #ED232A;
+  font-family: "Roboto",Sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1em;
+  z-index: 99;
+}
+.main-title__general.main-title__general--redlight{
+  position: absolute;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+  top: 2rem;
+}
+.main-title__general.main-title__general--redlight h2{
+  color: #ED232A;
+  font-family: "Roboto",Sans-serif;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-title__general.main-title__general--redlight h2 span{
+  color:#fff;
+}
+
+.main-title__general.main-title__general--reddark{
+  position: absolute;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+  top: 2rem;
+}
+.main-title__general.main-title__general--reddark h2{
+  color: #ED232A;
+  font-family: "Roboto",Sans-serif;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.main-title__general.main-title__general--reddark h2 span{
+  color:#000;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.main-title__general.main-title__general--largered h2{
+  color: #ED232A;
+  font-family: "Anton",Sans-serif;
+  font-family: "Passion One",Sans-serif;
+  font-size: 76px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 0.9em;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+.main-title__general.main-title__general--largered span{
+  color: #000;
+  font-family: "Anton",Sans-serif;
+  font-family: "Passion One",Sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1em;
+  letter-spacing: 1px;
+}
+.main-cta__btn a{
+  font-family: "Roboto",Sans-serif;
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  transition: 0.3s ease-in-out;
+}
+.main-cta__btn a:hover{
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: #000;
+}
+.main-cta__btn a i{
+  color: #fff;
+}
+
+.main-cta__content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.main-stylelife__list{
+  margin-top: 2rem;
+  padding-left: 5rem;
+  position: relative;
+}
+.main-stylelife__list:before{
+  content: '';
+  position: absolute;
+  width:2px;
+  background-color: #ED232A;
+  height: 100%;
+  left: 0;
+}
+.main-stylelife__list li{
+  color: #000;
+  transition: 0.3 ease-in-out;
+  font-family: "Roboto",Sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+.main-stylelife__list li:hover{
+  color: #ED232A;
+  transition: 0.3 ease-in-out;
+}
+
+
+.about-parallax {
+  /* background-image: url("../img/fondo-mujer-1.jpg"); */
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+  background-position: 50% -140px;
+  margin-top: 80px;
+  border-top:2px solid red;
+  border-bottom:2px solid red;
+  background-repeat: no-repeat;
+}
+.about-parallax__notborder{
+  border-top:2px solid transparent;
+  border-bottom:2px solid transparent;
+}
+
+.overlay{ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.about-parallax .about-parallax__title {
+  /* position: absolute; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-parallax .about-parallax__title h2 {
+  color: #fff;
+}
+
+.about-parallax .btn-about__parallax {
+  position: absolute;
+}
+
+.main-about__box {
+  margin-top: 30px;
+}
+
+hr{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid #f8f9fa;
+  width: 30%;
+}
+
+.main-product__list{
+  list-style-image: url(../img/plus.png);
+  margin-top: 2rem;
+}
+.main-product__list li{
+  font-family: "Roboto",Sans-serif;
+  font-size: 21px;
+  color: #ED232A;
+  padding: 1rem;
+  position: relative;
+  font-weight: 600;
+}
+.main-product__list li:after{
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  bottom: 0;
+  left: -2.5rem;
+  background-color: #ee3d2b;
+}
+
+.main-slider__content{
+  margin-top: 10rem;
+}
+.main-slider__item {
+  height: 350px;
+  border: 2px solid #ee3d2b;
+}
+.main-slider__item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-slider .main-slider__content{
+  margin-top: 0;
+}
+
+footer{
+  background-color: #000;
+  padding: 1.5rem;
+}
+.main-footer__content{
+  display: flex;
+  justify-content: space-around;
+}
+.main-footer__item p{
+  color: #fff;
+  margin-bottom: 0;
+}
+

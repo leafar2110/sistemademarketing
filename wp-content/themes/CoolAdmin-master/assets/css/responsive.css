@@ -1,0 +1,149 @@
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-banner__content {
+    grid-template-columns: 50% 50%;
+    grid-gap: 2rem;
+  }
+  .main-stylelife__content{
+    grid-template-columns: 100%;
+  }
+  .main-stylelifetwo__content{
+    grid-template-columns: 100%;
+  }
+  .main-banner__img {
+    width: 285px;
+  }
+  .main-title__general.main-title__general--redlight h2,.main-title__general.main-title__general--reddark h2{
+    font-size: 30px;
+  }
+  .main-title__general.main-title__general--redlight h2 span,.main-title__general.main-title__general--reddark h2 span{
+    font-size: 20px;
+  }
+  footer {
+    padding: 1.5rem 0;
+  }
+  .about-parallax{
+    height: 80vh;
+  }
+  .main-title__general.main-title__general--largered h2{
+    font-size: 55px;
+  }
+  .main-title__general.main-title__general--largered span{
+    font-size: 35px;
+  }
+  .main-title__general p,.main-cta__btn a{
+    font-size: 18px;
+    text-align: center;
+  }
+  .main-product__list li{
+    font-size: 18px;
+  }
+  .main-product__list li:after{
+    width: 100%;
+  }
+  .main-banner__title h1{
+    font-size: 60px;
+  }
+  .main-banner__title h3 {
+    font-size: 45px;
+  }
+  .main-title__general.main-title__general--red h2{
+    font-size: 35px;
+  }
+  .main-stylelife__list li{
+    font-size: 20px;
+  }
+  .main-stylelife__list{
+    padding-left: 2rem;
+  }
+  .main-stylelife{
+    padding: 40px 0;
+  }
+  .about-parallax{
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .main-slider__content {
+    margin-top: 7rem;
+  }
+  .main-banner--large .main-banner__img {
+    width: 285px;
+  }
+  .main-banner__content {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-banner__content {
+    grid-template-columns: 50% 50%;
+    grid-gap: 2rem;
+  }
+  .main-stylelife__content{
+    grid-template-columns: 10% 90%;
+  }
+  .main-stylelifetwo__content{
+    grid-template-columns: 90% 10%;
+  }
+  .main-banner__img {
+    width: 500px;
+  }
+  .main-title__general.main-title__general--redlight h2,.main-title__general.main-title__general--reddark h2{
+    font-size: 45px;
+  }
+  .main-title__general.main-title__general--redlight h2 span,.main-title__general.main-title__general--reddark h2 span{
+    font-size: 35px;
+  }
+  .about-parallax{
+    height: 80vh;
+  }
+  .main-title__general p,.main-cta__btn a{
+    font-size: 25px;
+  }
+  .main-banner__title h1{
+    font-size: 85px;
+  }
+  .main-banner__title h3{
+    font-size: 55px;
+  }
+  .main-title__general.main-title__general--red h2{
+    font-size: 45px;
+  }
+  .about-parallax{
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .main-slider__content {
+    margin-top: 7rem;
+  }
+  .main-banner--large .main-banner__img {
+    width: 350px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-banner__content {
+    grid-template-columns: 50% 50%;
+    grid-gap: 2rem;
+  }
+  .main-stylelife__content{
+    grid-template-columns: 30% 70%;
+  }
+  .main-stylelifetwo__content{
+    grid-template-columns: 70% 30%;
+  }
+  .main-banner__img {
+    width: 500px;
+  }
+  .main-title__general.main-title__general--redlight h2,.main-title__general.main-title__general--reddark h2{
+    font-size: 50px;
+  }
+  .main-title__general.main-title__general--redlight h2 span,.main-title__general.main-title__general--reddark h2 span{
+    font-size: 40px;
+  }
+  .about-parallax{
+    height: 85vh;
+  }
+  .main-title__general p,.main-cta__btn a{
+    font-size: 30px;
+  }
+}
