@@ -713,6 +713,39 @@ footer{
 .card-header strong{
   color: #fff !important;
 }
-.card-text a{
+.card-text a, a{
   color: #38bacc;
 }
+.card-body .card-title{
+  grid-template-columns: 1fr;
+}
+
+.frm_style_formidable-style.with_frm_style input[type=text], .frm_style_formidable-style.with_frm_style input[type=password], .frm_style_formidable-style.with_frm_style input[type=email], .frm_style_formidable-style.with_frm_style input[type=number], .frm_style_formidable-style.with_frm_style input[type=url], .frm_style_formidable-style.with_frm_style input[type=tel], .frm_style_formidable-style.with_frm_style input[type=file], .frm_style_formidable-style.with_frm_style input[type=search], .frm_style_formidable-style.with_frm_style select {
+  height: 40px !important;
+  line-height: 1.3;
+}
+
+.frm_style_formidable-style.with_frm_style label.frm_primary_label {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  color: #5a5a5a !important;
+  font-weight: 500 !important;
+  height: 40px !important;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_compact .frm_dropzone.dz-clickable .dz-message, .frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_style_formidable-style.with_frm_style .frm_submit button, .frm_form_submit_style {
+  width: 100% !important;
+  font-family:"Poppins", sans-serif !important;
+  font-size: 15px !important;
+  background: #d53625 !important;
+  border-color: #d53625 !important;
+  color: #fff !important;
+  padding: 12px 11px !important;
+  font-weight: 600 !important;
+}
+
+.badge-success {
+  color: #ba3136 !important;
+  background-color: #ffffff !important;
+}
+

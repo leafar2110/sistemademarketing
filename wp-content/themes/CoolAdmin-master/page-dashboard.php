@@ -36,82 +36,103 @@
                       
                         <div class="row m-t-25">
                         
-
+                       
+                            
  <?php $args = array( 'post_type' => 'Documentos', 'posts_per_page' => 1);?>   
                          <?php $loop = new WP_Query( $args ); ?>
                          <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
-                         <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <strong class="card-title"><?php the_title(); ?>
-                                            <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
-                                            <?php if ( $nota_adicional_checked_labels ) : ?>
-                                                <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
-                                                <span class="badge badge-success float-right mt-1"><?php echo $nota_adicional_label; ?></span>
-                                                <?php endforeach; ?>
-                                                <?php endif; ?>
-                                            </strong>
-                                        </div>
-                                        <div class="card-body">
-                                            <!-- <p class="card-text"> <?php the_content(); ?>
-                                            </p> -->
-                                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
+
+                         <a href="<?php bloginfo('url'); ?>/biblioteca" class="col-md-6 col-lg-3">
+                                <div class="statistic__item">
+                                    <h2 class="number">
+
+                                        <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                        <?php if ( $nota_adicional_checked_labels ) : ?>
+                                            <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                            <span class="badge badge-success float-right mt-1"><?php echo $nota_adicional_label; ?></span>
+                                            <?php endforeach; ?>
+                                            <?php endif; ?>
+                                    
+                                    </h2>
+                                    <span class="desc"><?php the_title(); ?></span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-account-o"></i>
                                     </div>
                                 </div>
+</a>
+                       
                             <?php endwhile; ?>
 
  <?php $args = array( 'post_type' => 'Noticia', 'posts_per_page' => 1);?>   
                          <?php $loop = new WP_Query( $args ); ?>
                          <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
-                         <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <strong class="card-title"><?php the_title(); ?>
-                                            <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
-                                            <?php if ( $nota_adicional_checked_labels ) : ?>
-                                                <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
-                                                <span class="badge badge-success float-right mt-1"><?php echo $nota_adicional_label; ?></span>
-                                                <?php endforeach; ?>
-                                                <?php endif; ?>
-                                            </strong>
-                                        </div>
-                                        <div class="card-body">
-                                            <!-- <p class="card-text"> <?php the_content(); ?>
-                                            </p> -->
-                                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
+                         <a href="<?php bloginfo('url'); ?>/noticias" class="col-md-6 col-lg-3">
+                                <div class="statistic__item">
+                                    <h2 class="number">
+
+                                        <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                        <?php if ( $nota_adicional_checked_labels ) : ?>
+                                            <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                            <span class="badge badge-success float-right mt-1"><?php echo $nota_adicional_label; ?></span>
+                                            <?php endforeach; ?>
+                                            <?php endif; ?>
+                                    
+                                    </h2>
+                                    <span class="desc"><?php the_title(); ?></span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-account-o"></i>
                                     </div>
                                 </div>
+</a>
                             <?php endwhile; ?>
 
  <?php $args = array( 'post_type' => 'Videos', 'posts_per_page' => 1);?>   
                          <?php $loop = new WP_Query( $args ); ?>
                          <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
-                         <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <strong class="card-title"><?php the_title(); ?>
-                                            <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
-                                            <?php if ( $nota_adicional_checked_labels ) : ?>
-                                                <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
-                                                <span class="badge badge-success float-right mt-1"><?php echo $nota_adicional_label; ?></span>
-                                                <?php endforeach; ?>
-                                                <?php endif; ?>
-                                            </strong>
-                                        </div>
-                                        <div class="card-body">
-                                            <!-- <p class="card-text"> <?php the_content(); ?>
-                                            </p> -->
-                                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            </p>
-                                        </div>
+                         <a href="<?php bloginfo('url'); ?>/opotunidad" class="col-md-6 col-lg-3">
+                                <div class="statistic__item">
+                                    <h2 class="number">
+
+                                        <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                        <?php if ( $nota_adicional_checked_labels ) : ?>
+                                            <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                            <span class="badge badge-success float-right mt-1"><?php echo $nota_adicional_label; ?></span>
+                                            <?php endforeach; ?>
+                                            <?php endif; ?>
+                                    
+                                    </h2>
+                                    <span class="desc"><?php the_title(); ?></span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-account-o"></i>
                                     </div>
                                 </div>
+</a>
+                            <?php endwhile; ?>
+
+ <?php $args = array( 'post_type' => 'Videos', 'posts_per_page' => 1);?>   
+                         <?php $loop = new WP_Query( $args ); ?>
+                         <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
+                         <a href="<?php bloginfo('url'); ?>/como-iniciar" class="col-md-6 col-lg-3">
+                                <div class="statistic__item">
+                                    <h2 class="number">
+
+                                        <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                        <?php if ( $nota_adicional_checked_labels ) : ?>
+                                            <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                            <span class="badge badge-success float-right mt-1"><?php echo $nota_adicional_label; ?></span>
+                                            <?php endforeach; ?>
+                                            <?php endif; ?>
+                                    
+                                    </h2>
+                                    <span class="desc"><?php the_title(); ?></span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-account-o"></i>
+                                    </div>
+                                </div>
+</a>
                             <?php endwhile; ?>
                         </div>
+                        
                         <div class="overview-wrap">
                                     <h2 class="title-1">Cursos <strong>Lo mas nuevo</strong></h2>
                                 

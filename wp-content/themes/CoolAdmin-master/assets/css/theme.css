@@ -169,9 +169,9 @@ strong {
 .title-2 {
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     padding: 1rem 0.5rem;
 }
 
@@ -286,6 +286,7 @@ section {
     overflow: auto;
     background: #e5e5e5;
     padding-bottom: 12vh;
+    overflow: hidden;
 }
 }
 .page-container {
@@ -823,7 +824,7 @@ section {
 
 @media (max-width: 1600px) {
     .au-input--xl {
-        min-width: 350px;
+        min-width: 450px;
     }
 }
 
@@ -1313,13 +1314,19 @@ section {
 
 @media (max-width: 991px) {
     .header-button {
-        margin-top: 30px;
-        width: 100%;
+        /* margin-top: 30px;
+        width: 100%; */
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
         -moz-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
+    }
+    .header-wrap{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        align-items: center !important;
+    
     }
 }
 
@@ -4262,7 +4269,7 @@ section {
 }
 
 .table-earning thead th {
-    background: #333;
+    background: #d53625;
     font-size: 16px;
     color: #fff;
     vertical-align: middle;
@@ -4992,7 +4999,7 @@ section {
 .statistic__item {
     border: 1px solid #e5e5e5;
     background: #fff;
-    padding: 20px 30px;
+    padding: 20px 11px;
     position: relative;
     min-height: 180px;
     overflow: hidden;
@@ -5018,7 +5025,7 @@ section {
 }
 
 .statistic__item .desc {
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 300;
     color: rgba(128, 128, 128, 0.6);
@@ -5033,18 +5040,16 @@ section {
 .statistic__item .icon {
     display: inline-block;
     position: absolute;
-    bottom: -50px;
+    bottom: -40px;
     right: -7px;
-}
-
-.statistic__item .icon i {
-    font-size: 180px;
+  }
+  .statistic__item .icon i {
+    font-size: 150px;
     color: #808080;
     opacity: .2;
     line-height: 1;
     vertical-align: baseline;
-}
-
+  }
 .statistic__item--green {
     background: #00b26f;
 }
