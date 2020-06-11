@@ -34,7 +34,7 @@ if(is_user_logged_in() != NULL)
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/images/icon/logo.png" alt="CoolAdmin">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="CoolAdmin">
                             </a>
                         </div>
                                                     <div class="login-form">
@@ -53,16 +53,16 @@ if(is_user_logged_in() != NULL)
                               
                               <?php do_action( 'woocommerce_login_form' ); ?>
                               
-                              <p class="form-row form-row-sesion ">
+                              <p class="form-row form-row-sesion form-sesion--betweewn ">
                                 <label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
                                   
-                                  <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" checked="checked" /> <strong><?php esc_html_e( 'Recuerdame', 'woocommerce' ); ?></strong>
+                                  <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" checked="checked" /> <strong><?php esc_html_e( 'Recuérdame', 'woocommerce' ); ?></strong>
                                 </label>
                                 <a class="forgot" href="<?php echo get_home_url() ?>/index.php/olvidaste-contrasena">Olvidaste tu contraseña?</a> 
                               </p>
                               <div class="action-login text-center">  
                                 <?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
-                                <button type="submit" class="au-btn au-btn--block au-btn--green m-b-20" name="login" value="<?php esc_attr_e( 'Log in', 'woocommerce' ); ?>"><?php esc_html_e( 'Iniciar Sesión', 'woocommerce' ); ?></button>
+                                <button type="submit" class="au-btn au-btn--block au-btn--red m-b-20" name="login" value="<?php esc_attr_e( 'Log in', 'woocommerce' ); ?>"><?php esc_html_e( 'Iniciar Sesión', 'woocommerce' ); ?></button>
                               </div>
 
                               <?php do_action( 'woocommerce_login_form_end' ); ?>
@@ -71,8 +71,8 @@ if(is_user_logged_in() != NULL)
 
                             <div class="register-link">
                                 <p>
-                                    Don't you have account?
-                                    <a href="<?php bloginfo('url'); ?>/registrar">Registrarse</a>
+                                  ¿No tienes cuenta?
+                                    <a href="<?php bloginfo('url'); ?>/registrar">Regístrate aquí</a>
                                 </p>
                             </div>
                         </div>

@@ -21,6 +21,12 @@
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
+                        <div class="col-md-12">
+                            <div class="overview-wrap">
+                                <h2 class="title-1"><strong>Como iniciar</strong></h2>
+                            
+                            </div>
+                        </div>
                         <div class="row">
 
                     <?php $args = array( 'post_type' => 'Videos');?>   
@@ -32,6 +38,13 @@
                                     <?php if ($categoria_de_video_label == "Como Iniciar"): ?>
                                         <div class="col-lg-6">
                                 <div class="au-card m-b-30 iframe-custom" style="width: 100%;">
+                                <strong class="card-title"><?php the_title(); ?>
+                                <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                <?php if ( $nota_adicional_checked_labels ) : ?>
+                                    <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                    <?php endforeach; ?>
+                                    <?php endif; ?>
+                                </strong>
                                 <?php the_content(); ?>
                                 </div>
                         </div>

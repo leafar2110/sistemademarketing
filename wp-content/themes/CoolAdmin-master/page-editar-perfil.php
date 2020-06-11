@@ -20,7 +20,9 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="card">
-                                    <div class="card-header">Xtreme 5/7</div>
+                                    <div class="card-header">
+                                        <strong>Xtreme 5/7</strong>
+                                    </div>
                                     <div class="card-body">
                                         <div class="card-title">
                                             <h3 class="text-center title-2">Enlaces para Xtreme 5/7</h3>

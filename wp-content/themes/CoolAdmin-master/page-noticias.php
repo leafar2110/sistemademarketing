@@ -18,10 +18,16 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
+                        <div class="col-md-12">
+                            <div class="overview-wrap">
+                                <h2 class="title-1"><strong>Noticias</strong></h2>
+                            
+                            </div>
+                        </div>
                             <?php $args = array( 'post_type' => 'Noticia');?>   
                          <?php $loop = new WP_Query( $args ); ?>
                          <?php while ($loop->have_posts()) : $loop->the_post();  global $product; ?>
-                            <div class="col-md-4">
+                            <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="card">
                                     <div class="card-header">
                                         <strong class="card-title mb-3">Profile Card</strong>
