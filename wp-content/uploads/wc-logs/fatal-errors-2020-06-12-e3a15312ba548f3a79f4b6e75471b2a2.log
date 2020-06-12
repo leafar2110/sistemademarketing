@@ -1,0 +1,8 @@
+2020-06-12T00:52:54+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php:21
+Stack trace:
+#0 /var/www/html/Plataforma/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/Plataforma/wp-blog-header.php(19): require_once('/var/www/html/P...')
+#2 /var/www/html/Plataforma/index.php(17): require('/var/www/html/P...')
+#3 {main}
+  thrown in /var/www/html/Plataforma/wp-content/themes/CoolAdmin-master/page-editar-perfil.php on line 21
+

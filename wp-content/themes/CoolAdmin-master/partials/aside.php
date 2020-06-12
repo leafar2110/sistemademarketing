@@ -20,27 +20,56 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li class="has-sub">
+                        
+                        <li class="<?php if(is_page(18)){ echo 'active has-sub';} ?> ">
                             <a class="js-arrow" href="<?php bloginfo('url'); ?>">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                                <i class="fas fa-tachometer-alt"></i>Bienvenida</a>
                          
                         </li>
-                          <li>
+                          <li class="<?php if(is_page(9)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/editar-perfil">
-                                <i class="far fa-check-square"></i>Editar perfil</a>
+                                <i class="far fa-check-square"></i>Editar Perfil</a>
                         </li>
-                        <li>
-                            <a href="<?php bloginfo('url'); ?>/cursos">
-                                <i class="fas fa-chart-bar"></i>Cursos</a>
+                        <li class="<?php if(is_page(63)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/oportunidad">
+                                <i class="fas fa-play"></i>Oportunidad</a>
                         </li>
-                        <li>
-                            <a href="<?php bloginfo('url'); ?>/documentos">
-                                <i class="fas fa-table"></i>Documentos</a>
+                         <li class="<?php if(is_page(67)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/como-iniciar">
+                                <i class="fas fa-play"></i>Como Iniciar</a>
                         </li>
-                      
-                        <li>
+                         <li class="<?php if(is_page(60)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/como-funciona">
+                                <i class="fas fa-play"></i>Como funciona</a>
+                        </li>
+                         <li class="<?php if(is_page(69)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/productos">
+                                <i class="fas fa-chart-bar"></i>Productos</a>
+                        </li>
+                          <li class="<?php if(is_page(71)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/formacion-general">
+                                <i class="fas fa-play"></i>Formación General</a>
+                        </li>
+                           <li class="<?php if(is_page(73)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/desarrolla-tu-potencial">
+                                <i class="fas fa-play"></i>Desarrolla tu potencial</a>
+                        </li>
+                         <li class="<?php if(is_page(14)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/biblioteca">
+                                <i class="fas fa-file-text"></i>Biblioteca</a>
+                        </li>
+                           <li class="<?php if(is_page(75)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/herramientas">
+                                <i class="fas fa-file-text"></i>Herramientas</a>
+                        </li>
+                        <li class="<?php if(is_page(65)){ echo 'active has-sub';} ?>">
+                            <a href="<?php bloginfo('url'); ?>/comunicacion-efectiva">
+                                <i class="fas fa-play"></i>Comunicación Efectiva</a>
+                        </li>
+                       
+                        <li class="<?php if(is_page(16)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/noticias">
-                                <i class="fas fa-calendar-alt"></i>Noticias</a>
+                                <i class="fas fa-desktop"></i>Noticias</a>
                         </li>
                         <!-- <li>
                             <a href="map.html">
@@ -72,53 +101,53 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                          
-                        <li class="active has-sub">
+                        <li class="<?php if(is_page(18)){ echo 'active has-sub';} ?> ">
                             <a class="js-arrow" href="<?php bloginfo('url'); ?>">
                                 <i class="fas fa-tachometer-alt"></i>Bienvenida</a>
                          
                         </li>
-                          <li>
+                          <li class="<?php if(is_page(9)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/editar-perfil">
                                 <i class="far fa-check-square"></i>Editar Perfil</a>
                         </li>
-                        <li>
+                        <li class="<?php if(is_page(63)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/oportunidad">
                                 <i class="fas fa-play"></i>Oportunidad</a>
                         </li>
-                         <li>
+                         <li class="<?php if(is_page(67)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/como-iniciar">
                                 <i class="fas fa-play"></i>Como Iniciar</a>
                         </li>
-                         <li>
+                         <li class="<?php if(is_page(60)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/como-funciona">
                                 <i class="fas fa-play"></i>Como funciona</a>
                         </li>
-                         <li>
+                         <li class="<?php if(is_page(69)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/productos">
                                 <i class="fas fa-chart-bar"></i>Productos</a>
                         </li>
-                          <li>
+                          <li class="<?php if(is_page(71)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/formacion-general">
                                 <i class="fas fa-play"></i>Formación General</a>
                         </li>
-                           <li>
+                           <li class="<?php if(is_page(73)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/desarrolla-tu-potencial">
                                 <i class="fas fa-play"></i>Desarrolla tu potencial</a>
                         </li>
-                         <li>
+                         <li class="<?php if(is_page(14)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/biblioteca">
                                 <i class="fas fa-file-text"></i>Biblioteca</a>
                         </li>
-                           <li>
+                           <li class="<?php if(is_page(75)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/herramientas">
                                 <i class="fas fa-file-text"></i>Herramientas</a>
                         </li>
-                        <li>
+                        <li class="<?php if(is_page(65)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/comunicacion-efectiva">
                                 <i class="fas fa-play"></i>Comunicación Efectiva</a>
                         </li>
                        
-                        <li>
+                        <li class="<?php if(is_page(16)){ echo 'active has-sub';} ?>">
                             <a href="<?php bloginfo('url'); ?>/noticias">
                                 <i class="fas fa-desktop"></i>Noticias</a>
                         </li>

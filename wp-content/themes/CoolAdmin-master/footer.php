@@ -18,7 +18,7 @@
     <script src="<?php echo get_template_directory_uri();?>/assets/vendor/chartjs/Chart.bundle.min.js"></script>
     <script src="<?php echo get_template_directory_uri();?>/assets/vendor/select2/select2.min.js">
     </script>
-
+<script src="<?php echo get_template_directory_uri();?>/assets/js/clipboard.min.js"></script>
     <!-- Main JS-->
     <script src="<?php echo get_template_directory_uri();?>/assets/js/main.js"></script>
 <?php wp_footer(); ?>

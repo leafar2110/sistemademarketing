@@ -4,6 +4,32 @@
      ?>
 
 <?php get_header(); ?>
+<style type="text/css">
+    .center-info{
+        padding: 25px;
+    text-align: center;
+    }
+    .copy-auto label{
+        padding-top: 20px;
+    color: black;
+    }
+   .copy-auto textarea{
+                 height: 50px;
+    font-size: 12px;
+    padding: 15px;
+    color: #666666;
+    }
+    #copyClip{
+        background: transparent !important;
+       
+    }
+   .copy-auto button{
+            font-size: 14px;
+    color: #d53625;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    }
+</style>
 <body class="animsition">
 
         <?php get_template_part('partials/aside'); ?>
@@ -18,47 +44,51 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                        <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-header">
-
-                                        <strong>Productos</strong>
-
-                                    </div>
-                                    <div class="card-body card-block">
-                                         <?php $args = array( 'post_type' => 'Xtreme', 'posts_per_page' => 1);?>   
-                                         <?php $loop = new WP_Query( $args ); 
-                                          
-                                         ?>
-                         <?php while ($loop->have_posts()) : $loop->the_post();
+                            <?php $args = array( 'post_type' => 'Xtreme', 'posts_per_page' => 1);?>   
+                                         <?php $loop = new WP_Query( $args ); ?>
+                    <?php while ($loop->have_posts()) : $loop->the_post();
                             $user_form = get_the_excerpt();
                             $user_id = get_current_user_id();
                            ?>
-                            <?php if ( $user_form  == $user_id ): ?>
-                                        <div class="form-group">
-                                            <label for="company" class=" form-control-label">URL Referidos Xtreme 5/7 </label>
-                                            <a target="_blank" href="<?php the_permalink(); ?>"> <?php the_permalink(); ?></a>
-                                            
-                                        </div>
-                            <?php endif; endwhile; ?>
+                            <?php if ( $user_form  == $user_id ): 
+                                $d_none = 1;
+                                ?>
 
-                                    
-                                      
-                                    </div>
-                                </div>
-                            </div>
+                                       
+                            <?php endif; endwhile; ?>
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card copy-auto">
                                     <div class="card-header">
                                         <strong>Xtreme 5/7</strong>
                                     </div>
+                                     <?php if (  $d_none != 1 ): ?>
                                     <div class="card-body">
                                         <div class="card-title">
                                             <h3 class="text-center title-2">Enlaces para Xtreme 5/7</h3>
                                         </div>
                                         <hr>
+                                        
                                     <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 7, 'title' => false, 'description' => false ) ); ?>
                                     </div>
+                                    <?php else: ?>
+                                             <?php $args = array( 'post_type' => 'Xtreme', 'posts_per_page' => 1);?>   
+                                         <?php $loop = new WP_Query( $args ); ?>
+                                         <?php while ($loop->have_posts()) : $loop->the_post();
+                                            $user_form = get_the_excerpt();
+                                            $user_id = get_current_user_id();
+                                           ?>
+                                            <?php if ( $user_form  == $user_id ):  ?>
+                                                <label for="company" class=" form-control-label text-center">Registro Exitoso </label>
+   <!-- Codigo usado en este ejemplo --><small for="company" class=" form-control-label text-center">Enlace de para Referidos </small>
+                                                <textarea cols='20' rows='1' id="codigo" ><?php the_permalink(); ?></textarea><br>
+                                                <button type="button" id="copyClip" class="" data-clipboard-target="#codigo">Copiar</button>
+                                        <div class="form-group center-info">
+                                            
+                                            
+                                        </div>
+                                          <?php endif; endwhile; ?>
+
+                                <?php endif; ?>
                                 </div>
                             </div>
                             
