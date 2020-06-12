@@ -333,7 +333,7 @@ section {
 .main-banner__bc{
   height: 80vh;
   width: 100%;
-  background-image: url(../img/fondo-solo.jpg);
+  background-image: url(../images/fondo-solo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -349,6 +349,15 @@ section {
 .main-banner__content, .main-stylelife__content{
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.main-stylelife__img{
+  height: 400px;
+  width: 100%;
+}
+
+.main-stylelife__img img{
+  width: 100%;
 }
 
 .main-banner__item:nth-child(1){
@@ -523,7 +532,6 @@ section {
   height: 100vh;
   background-attachment: fixed;
   position: relative;
-  background-position: 50% -140px;
   margin-top: 80px;
   border-top:2px solid red;
   border-bottom:2px solid red;
@@ -596,8 +604,9 @@ hr{
   margin-top: 10rem;
 }
 .main-slider__item {
-  height: 350px;
+  height: 450px;
   border: 2px solid #ee3d2b;
+  margin-right: 10px;
 }
 .main-slider__item img{
   width: 100%;
@@ -620,6 +629,8 @@ footer{
 .main-footer__item p{
   color: #fff;
   margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
 }
 
 
@@ -749,3 +760,46 @@ footer{
   background-color: #ffffff !important;
 }
 
+
+iframe{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 65%;
+  width: 100%;
+  border: 0;
+  transform: translateY(-50%);
+}
+.main-video__content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.main-video{
+  width: 80%;
+}
+
+.main-slider__content .slick-next:before {
+  content: "\f105";
+  font-size: 50px;
+  color: red;
+}
+.main-slider__content .slick-prev:before {
+  content: "\f104";
+  font-size: 50px;
+  color: red;
+  
+}
+.main-slider__content .slick-prev:before, .main-slider__content .slick-next:before {
+  font-family: "FontAwesome";
+}
+
+.main-slider__content .slick-prev {
+  left: 1rem;
+  z-index: 99;
+}
+.main-slider__content .slick-next {
+  right: 1.5rem;
+}

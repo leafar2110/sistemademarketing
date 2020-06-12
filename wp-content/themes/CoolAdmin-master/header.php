@@ -31,6 +31,7 @@
     <link href="<?php echo get_template_directory_uri();?>/assets/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
     <link href="<?php echo get_template_directory_uri();?>/assets/css/main.css" rel="stylesheet" media="all">
     <link href="<?php echo get_template_directory_uri();?>/assets/css/responsive.css" rel="stylesheet" media="all">
+    <link href="<?php echo get_template_directory_uri();?>/assets/css/font-awesome.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
     <link href="<?php echo get_template_directory_uri();?>/assets/css/theme.css" rel="stylesheet" media="all">

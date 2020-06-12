@@ -89,7 +89,7 @@
       <div class="main-stylelife__content">
         <div class="main-stylelife__item">
           <div class="main-stylelife__img">
-            <img src="" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/assets/images/gordita-1-1.png" alt="">
           </div>
         </div>
         <div class="main-stylelife__item">
@@ -115,12 +115,33 @@
         <hr>
         </h2>
       </div>
-      <div class="main-slider__content">
+      <div class="main-slider__content main-slider__sliderone">
         <div class="main-slider__item">
-          <img src="<?php echo get_template_directory_uri();?>/assets/images/testimonio-02-1.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-02-1.jpg" alt="">
         </div>
         <div class="main-slider__item">
-          <img src="<?php echo get_template_directory_uri();?>/assets/images/testimonio-02-1.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-01.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-03-1.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-04-2.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-08-2.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-10.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-11.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-12.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/1/testimonio-13.jpg" alt="">
         </div>
       </div>
     </div>
@@ -143,7 +164,7 @@
         </div>
         <div class="main-stylelife__item">
           <div class="main-stylelife__img">
-            <img src="" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/assets/images/PACK-XTREME-57-CON-TITULO-1.png" alt="">
           </div>
         </div>
         
@@ -167,9 +188,14 @@
         </div>
       </div>
     </div>
-  <div class="about-parallax mt-0" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/paula-borowska-1498-1.png);">
+  <div class="about-parallax about-parallax__video mt-0" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/paula-borowska-1498-1.png);">
     <div class="overlay"></div>
-  </div>
+    <div class="main-video__content">
+      <div class="main-video">
+        <iframe class="elementor-video-iframe lazyloaded" allowfullscreen="" title="Reproductor de vídeo vimeo" src="https://player.vimeo.com/video/427241600?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=1&amp;portrait=1&amp;byline=1#t=" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://player.vimeo.com/video/427241600?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=1&amp;portrait=1&amp;byline=1#t=" data-was-processed="true"></iframe>
+      </div>
+    </div>
+    </div>
   <section class="about-parallax about-parallax__notborder">
     <!-- <div class="overlay"></div> -->
     <div class="container">
@@ -179,12 +205,24 @@
         <hr>
         </h2>
       </div>
-      <div class="main-slider__content">
+      <div class="main-slider__content main-slider__slidertwo">
         <div class="main-slider__item">
-          <img src="<?php echo get_template_directory_uri();?>/assets/images/testimonio-07-2.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/2/testimonio-05-2.jpg" alt="">
         </div>
         <div class="main-slider__item">
-          <img src="<?php echo get_template_directory_uri();?>/assets/images/testimonio-07-2.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/2/testimonio-07-2.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/2/testimonio-09-2.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/2/testimonio-05-2.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/2/testimonio-07-2.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/2/testimonio-09-2.jpg" alt="">
         </div>
       </div>
     </div>
@@ -214,12 +252,18 @@
   <section class="main-slider">
     <div class="container">
 
-      <div class="main-slider__content">
+      <div class="main-slider__content  main-slider__sliderthree">
         <div class="main-slider__item">
-          <img src="<?php echo get_template_directory_uri();?>/assets/images/RESULTADOS-XTREME.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/3/XTREME-2.jpg" alt="">
         </div>
         <div class="main-slider__item">
-          <img src="<?php echo get_template_directory_uri();?>/assets/images/RESULTADOS-XTREME.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/3/RESULTADOS-XTREME.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/3/XTREME-2.jpg" alt="">
+        </div>
+        <div class="main-slider__item">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/3/RESULTADOS-XTREME.jpg" alt="">
         </div>
       </div>
     </div>

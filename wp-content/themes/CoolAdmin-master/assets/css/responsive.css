@@ -1,4 +1,7 @@
 @media (min-width: 0px) and (max-width: 767px) {
+  .main-stylelife__img{
+    height: auto;
+  }
   .header-mobile .navbar-mobile{
     top: 70px !important;
   }
@@ -38,7 +41,7 @@
     padding: 1.5rem 0;
   }
   .about-parallax{
-    height: 80vh;
+    height: 93vh;
   }
   .main-title__general.main-title__general--largered h2{
     font-size: 55px;
@@ -88,6 +91,21 @@
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
+  .main-stylelife__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .main-stylelife__item:nth-child(2){
+    order: -1;
+  }
+  .main-stylelifetwo__content .main-stylelife__item:nth-child(1){
+    order: -1;
+
+  }
+  .about-parallax__video{
+    height: 60vh;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -112,10 +130,10 @@
     grid-gap: 2rem;
   }
   .main-stylelife__content{
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 100%;
   }
   .main-stylelifetwo__content{
-    grid-template-columns: 90% 10%;
+    grid-template-columns: 100%;
   }
   .main-banner__img {
     width: 500px;
@@ -127,7 +145,7 @@
     font-size: 35px;
   }
   .about-parallax{
-    height: 80vh;
+    height: 100vh;
   }
   .main-title__general p,.main-cta__btn a{
     font-size: 25px;
@@ -151,6 +169,18 @@
   .main-banner--large .main-banner__img {
     width: 350px;
   }
+  .main-stylelife__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .main-stylelife__item:nth-child(2){
+    order: -1;
+  }
+  .main-stylelifetwo__content .main-stylelife__item:nth-child(1){
+    order: -1;
+
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .main-banner__content {
@@ -158,10 +188,10 @@
     grid-gap: 2rem;
   }
   .main-stylelife__content{
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
   }
   .main-stylelifetwo__content{
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 50%;
   }
   .main-banner__img {
     width: 500px;
@@ -173,7 +203,7 @@
     font-size: 40px;
   }
   .about-parallax{
-    height: 85vh;
+    height: 100vh;
   }
   .main-title__general p,.main-cta__btn a{
     font-size: 30px;
