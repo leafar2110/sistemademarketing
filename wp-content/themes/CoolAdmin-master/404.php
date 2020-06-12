@@ -20,9 +20,9 @@
 								<p class="text-two-error"><strong>Te llevamos de regreso</strong></p>
 							</div>
 							<div class="content-btn-404">
-								<button class="btn_custom btn--medium btn--filled--trans btn-size btn-general" style="letter-spacing: 1.9px;">
+								<a href="<?php bloginfo('url'); ?>" class="btn_custom btn--medium btn--filled--trans btn-size btn-general" style="letter-spacing: 1.9px;">
 									volver al home
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>

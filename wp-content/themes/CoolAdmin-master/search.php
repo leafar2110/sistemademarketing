@@ -21,29 +21,24 @@
                              
                          
                          <?php while (have_posts()) : the_post(); ?>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c1">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-account-o"></i>
-                                            </div>
-                                            <div class="text">
-                                                <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
-                                            <?php if ( $nota_adicional_checked_labels ) : ?>
-                                                <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
-                                                <h2><?php echo $nota_adicional_label; ?></h2>
-                                                <?php endforeach; ?>
-                                                <?php endif; ?>
-                                                <span><?php the_title(); ?></span>
-                                            </div>
-                                        </div>
-                                        <div class="overview-chart">
-                                            <canvas ></canvas>
-                                        </div>
+                              <a href="<?php bloginfo('url'); ?>/biblioteca" class="col-md-6 col-lg-3">
+                                <div class="statistic__item">
+                                    <h2 class="number">
+
+                                        <?php $nota_adicional_checked_labels = get_field( 'nota_adicional' ); ?>
+                                        <?php if ( $nota_adicional_checked_labels ) : ?>
+                                            <?php foreach ( $nota_adicional_checked_labels as $nota_adicional_label ): ?>
+                                            <span class="badge badge-success float-right mt-1"><?php echo $nota_adicional_label; ?></span>
+                                            <?php endforeach; ?>
+                                            <?php endif; ?>
+                                    
+                                    </h2>
+                                    <span class="desc"><?php the_title(); ?></span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-account-o"></i>
                                     </div>
                                 </div>
-                            </div>
+</a>
                             <?php endwhile; ?>
                      
                     </div>
