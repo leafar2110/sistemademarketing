@@ -529,7 +529,7 @@ section {
 .about-parallax {
   /* background-image: url("../img/fondo-mujer-1.jpg"); */
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   background-attachment: fixed;
   position: relative;
   margin-top: 80px;
