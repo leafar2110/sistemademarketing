@@ -26,6 +26,7 @@ if(is_user_logged_in() != NULL)
  */
 
 ?>
+
 <?php get_header(); ?>
 <body class="animsition">
     <div class="page-wrapper">
