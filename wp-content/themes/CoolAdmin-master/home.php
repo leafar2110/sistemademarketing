@@ -2,7 +2,7 @@
 
 if(is_user_logged_in() != NULL)
 {
-  header('Location: http://174.138.38.5/sistemademarketing/dashboard/');
+  header('Location: http://localhost/Plataforma/dashboard/');
 } 
 
 ?>
