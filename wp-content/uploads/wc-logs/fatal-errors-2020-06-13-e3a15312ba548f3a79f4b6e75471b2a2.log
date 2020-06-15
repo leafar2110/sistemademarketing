@@ -1,0 +1,2 @@
+2020-06-13T01:15:22+00:00 CRITICAL Object of class PostmanEmailAddress could not be converted to string in /var/www/vhosts/sistemademarketing.com/httpdocs/wp-content/plugins/email-log/include/Util/helper.php on line 171
+

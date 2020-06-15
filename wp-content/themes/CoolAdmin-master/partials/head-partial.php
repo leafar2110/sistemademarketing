@@ -152,8 +152,8 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="<?php bloginfo('url'); ?>/editar-perfil">
-                                                        <i class="zmdi zmdi-account"></i>Editar Perfil</a>
+                                                    <a href="<?php bloginfo('url'); ?>/my-account/edit-account/">
+                                                        <i class="zmdi zmdi-account"></i>Información de la cuenta</a>
                                                 </div>
                                                
                                             </div>

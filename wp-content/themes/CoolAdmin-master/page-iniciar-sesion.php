@@ -58,7 +58,7 @@ if(is_user_logged_in() != NULL)
                                   
                                   <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" checked="checked" /> <strong><?php esc_html_e( 'Recuérdame', 'woocommerce' ); ?></strong>
                                 </label>
-                                <a class="forgot" href="<?php echo get_home_url() ?>/index.php/olvidaste-contrasena">Olvidaste tu contraseña?</a> 
+                                <a class="forgot" href="<?php echo get_home_url() ?>/recuperar-contrasena">Olvidaste tu contraseña?</a> 
                               </p>
                               <div class="action-login text-center">  
                                 <?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>

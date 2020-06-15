@@ -94,7 +94,7 @@
         </div>
         <div class="main-stylelife__item">
           <div class="main-title__general main-title__general--red ">
-            <h2>Ya te canso ese estilo de vida</h2>
+            <h2 style="text-transforn: capitalize;">¿YA TE CANSÓ ESE ESTILO DE VIDA ?</h2>
           </div>
           <ul class="main-stylelife__list">
             <li>El ejercicio no da resultados.</li>
@@ -200,8 +200,8 @@
     <!-- <div class="overlay"></div> -->
     <div class="container">
       <div class="main-title__general main-title__general--reddark">
-        <h2>Cada vez somos mas <br>
-        <span>pruebalo tu tambien</span>
+        <h2 style="text-transforn: capitalize;">CADA VEZ SOMOS MÁS  <br>
+        <span style="text-transforn: capitalize;">PRUEBALO TU TAMBIÉN</span>
         <hr>
         </h2>
       </div>

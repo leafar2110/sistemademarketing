@@ -761,7 +761,7 @@ footer{
 }
 
 
-iframe{
+.main-video__content iframe{
   position: absolute;
   top: 50%;
   left: 0;
@@ -802,4 +802,24 @@ iframe{
 }
 .main-slider__content .slick-next {
   right: 1.5rem;
+}
+
+.au-card-inner p,.vp-center{
+	margin-top:-2rem !important;
+}
+.iframe-custom {
+	height: 490px;
+}
+.page-content--bge5 {
+    background: #e5e5e5;
+    height: auto !important;
+}
+
+.main-thanks__content{
+	    height: 100vh;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	    overflow: hidden;
 }
